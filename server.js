@@ -15,6 +15,6 @@ app.post("/chat", async (req, res) => {
   const lastMessage = messages[messages.length - 1].content;
 
   res.json({
-    reply: "テスト返信: " + lastMessage
+    reply: "テストの返信: " + lastMessage
   });
 });
