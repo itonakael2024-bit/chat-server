@@ -29,7 +29,7 @@ app.post("/chat", async (req, res) => {
       body: JSON.stringify({
         model: "gpt-5.4-mini",
         messages: messages,
-        max_tokens: 120
+        max_completion_tokens: 120,
       })
     });
 
